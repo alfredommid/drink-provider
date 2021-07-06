@@ -24,6 +24,8 @@ const ModalProvider = (props) => {
     return ( 
         <ModalContext.Provider
             value={{
+                fullDrink,
+                setFullDrink,
                 setIdDrink
             }}
         >

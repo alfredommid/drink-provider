@@ -4,8 +4,6 @@ import { DrinksContext } from '../context/DrinksContext';
 
 const DrinksList = () => {
     const {drinks} = useContext(DrinksContext)
-    console.log(drinks)
-
     return ( 
         <div className="row mt-5">
             {drinks.map(drink => (
